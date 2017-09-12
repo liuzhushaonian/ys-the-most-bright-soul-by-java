@@ -145,6 +145,7 @@ public class Database<T> implements Character,Image,Movie,Music{
         return music;
     }
 
+
     @Override
     public void getMusicFrom163() {
         String sql="select id from t_music;";
